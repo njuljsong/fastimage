@@ -1,0 +1,26 @@
+{
+        "name": "njuljsong/fastimage",
+        "description":"FastImage finds the size or type of an image given its uri by fetching as little as needed, ported by ",
+        "type": "library",
+        "keywords": [
+                "fastimage",
+                "image size",
+                "ruby port"
+        ],
+        "homepage": "https://github.com/njuljsong/fastimage",
+        "authors": [
+            {
+                "name": "Tom Moor",
+                "email": "tom.moor@gmail.com"
+            }
+        ],
+        "license": "MIT",
+        "require": {
+                "php": ">=5.3.0"
+        },
+        "autoload": {
+            "psr-4": {
+              "FastImage\\": "src/"
+            }
+        }
+}
